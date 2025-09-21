@@ -1,7 +1,9 @@
 # Simple Monte Carlo simulation
 
-saw it [here](https://youtu.be/7ESK5SaP-bc?si=HUOp7TQbOhlvoIaZ) first, great video<br>
+Saw it in [this video](https://youtu.be/7ESK5SaP-bc?si=HUOp7TQbOhlvoIaZ) and wanted to try it myself<br>
 
+### "A Monte Carlo simulation for π involves randomly generating points within a square and using the ratio of points falling inside an inscribed circle to the total number of points to estimate the value of π."
+#### The ratio of the circle's area (πr²) to the square's area (4r²) is π/4, so multiplying the experimental ratio of points by four gives an approximation of π.
 
 ```python
 import math
@@ -282,3 +284,4 @@ plt.show()
 
 
 nice
+
